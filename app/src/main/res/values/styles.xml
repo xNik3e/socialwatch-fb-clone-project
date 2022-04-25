@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="collapsedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="expandedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:colorBackground">#FFF</item>
+    </style>
+
+    <style name="searchViewTheme" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColorPrimary">#FFF</item>
+        <item name="android:textColorHint">#FFF</item>
+        <item name="tint">#FFF</item>
+        <item name="android:gravity">end</item>
+
+
+    </style>
+
+
+
+
+
+
+</resources>
